@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        .swa{ 
+            width:vh;
+            justify-items: center;
+            justify-content: center;
+        
+        }
+
+    </style>
+
 </head>
 <body>
-    
+    <div  class="m-auto my-60 w-56">
+        <form class=" w-72"action="" method="get">
+            <table>
+            <tr><td><label class="p-2 justify-center" for="user">UserName</label></td>
+            <td><input type="text" id="user"></td></tr>
+            <tr>
+            <td><label for="pass">Password</label></td>
+            <td><input type="password" id="pass"></td></tr>
+           <tr> <td></td><td class="p-5"><button type="submit" class="m-5">Submit</button>
+           <button type="reset">Reset</button></td></tr>
+           </table>
+        </form>
+    </div>
 </body>
 </html>
